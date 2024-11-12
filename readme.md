@@ -1,8 +1,8 @@
-# Task: Set Up Java Project and Implement & Test Methods using GitHub Copilot
+# Task: Set Up .NET Project and Implement & Test Methods using GitHub Copilot
 
 ## Objective
 
-The goal of this task is to familiarize you with the features of GitHub Copilot by setting up a Java project, implementing a set of methods in a Java class skeleton, and validating them through unit tests using JUnit.
+The goal of this task is to familiarize you with the features of GitHub Copilot by setting up a .NET project, implementing a set of methods in a C# class skeleton, and validating them through unit tests using NUnit.
 
 ## Additional Notes:
 - Use GitHub Copilot for assistance at each step.
@@ -16,7 +16,7 @@ This task is helpful for participants with any programming language background s
 ## Instructions
 
 ### Step 1: Fork the Repository
-1. Fork the pre-prepared repository containing only the `readme.md`, `src/AdvancedOperations.java` and `test/test.java` files:
+1. Fork the pre-prepared repository containing only the `readme.md`, `src/AdvancedOperations.cs` and `test/AdvancedOperationsTest.cs` files:
     - Repository URL: [https://github.com/dshaplyko/github_copilot_practice.git](https://github.com/dshaplyko/github_copilot_practice.git)
 
 2. Clone your forked repository:
@@ -26,39 +26,39 @@ This task is helpful for participants with any programming language background s
     cd github_copilot_practice
     ```
 
-### Step 2: Initialize the Java Project
-1. **Initialize a Java project**:
-    - Ask GitHub Copilot how to initialize a new Java project.
+### Step 2: Initialize the .NET Project
+1. **Initialize a .NET project**:
+    - Ask GitHub Copilot how to initialize a new .NET project.
 
 ### Step 3: Install Necessary Packages
-1. **Install JUnit for testing**:
+1. **Install NUnit for testing**:
     - Use GitHub Copilot to understand what packages must be installed and install them.
 
 ### Step 4: Create .gitignore File
 1. **Create a `.gitignore` file**:
-    - Use GitHub Copilot to create a `.gitignore` file with the necessary Java ignoring options.
+    - Use GitHub Copilot to create a `.gitignore` file with the necessary .NET ignoring options.
 
 ### Step 5: Implement Methods in the AdvancedOperations Class
-1. Open `src/AdvancedOperations.java` and implement the methods using GitHub Copilot assistance (both CodeWhisperer and Copilot assistant features).
+1. Open `src/AdvancedOperations.cs` and implement the methods using GitHub Copilot assistance (both CodeWhisperer and Copilot assistant features).
 
 ### Step 6: Add Documentation and Comments
-1. **Add Javadoc comments**:
-    - Use GitHub Copilot to add Javadoc comments for the following methods:
-        - `findMax`
-        - `reverseString`
-        - `formatDate`
+1. **Add XML comments**:
+    - Use GitHub Copilot to add XML comments for the following methods:
+        - `FindMax`
+        - `ReverseString`
+        - `FormatDate`
 
 2. **Add inline comments**:
     - Use GitHub Copilot to add inline comments for the following methods:
-        - `factorial`
-        - `fibonacci`
-        - `isPalindrome`
+        - `Factorial`
+        - `Fibonacci`
+        - `IsPalindrome`
 
 ### Step 7: Implement Unit Tests
-1. Open `test/test.java` and ensure that the unit tests for the following methods are implemented using GitHub Copilot:
-    - `fibonacci`
-    - `isPalindrome`
-    - `mergeAndSort`
+1. Open `test/AdvancedOperationsTest.cs` and ensure that the unit tests for the following methods are implemented using GitHub Copilot:
+    - `Fibonacci`
+    - `IsPalindrome`
+    - `MergeAndSort`
 
 ### Step 8: Run Your Tests
 1. Run your tests to validate the implementation:
@@ -66,13 +66,13 @@ This task is helpful for participants with any programming language background s
 
 ### Step 9: Refactor a Method
 1. **Review a new method with bad practices**:
-    - Review the `calculateStatistics` method in `src/AdvancedOperations.java` that calculates statistics for a set of numbers but utilizes bad practices and violates DRY, KISS, SOLID, and other principles.
+    - Review the `CalculateStatistics` method in `src/AdvancedOperations.cs` that calculates statistics for a set of numbers but utilizes bad practices and violates DRY, KISS, SOLID, and other principles.
 
 2. **Refactor the method**:
-    - Use GitHub Copilot's refactor feature to refactor the `calculateStatistics` method to follow DRY, KISS, SOLID, and other principles.
+    - Use GitHub Copilot's refactor feature to refactor the `CalculateStatistics` method to follow DRY, KISS, SOLID, and other principles.
 
 ### Step 10: Run Your Tests Again
-1. Run your tests to validate the implementation and ensure the `calculateStatistics` method works as expected after refactoring.
+1. Run your tests to validate the implementation and ensure the `CalculateStatistics` method works as expected after refactoring.
 
 ### Step 11: Commit Your Changes
 1. Create a commit message with the help of GitHub Copilot:
