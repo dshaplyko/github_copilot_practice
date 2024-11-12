@@ -1,5 +1,5 @@
-const { expect } = require('chai');
-const AdvancedOperations = require('../src/AdvancedOperations');
+import { expect } from 'chai';
+import AdvancedOperations from '../src/AdvancedOperations.mjs';
 
 describe('AdvancedOperations', function() {
     let advOps;
