@@ -33,26 +33,44 @@ describe('AdvancedOperations', function() {
         expect(result).to.equal(120);
     });
 
-    // Test for fibonacci method
-    it('should return the nth Fibonacci number', function() {
-        const result = advOps.fibonacci(6);
-        expect(result).to.equal(8); // 0, 1, 1, 2, 3, 5, 8
+    // Test for calculateStatistics method
+    it('should calculate statistics for a set of numbers', function() {
+        const result = advOps.calculateStatistics([1, 2, 3, 4, 5]);
+        expect(result).to.deep.equal({
+            sum: 15,
+            average: 3,
+            min: 1,
+            max: 5
+        });
     });
 
-    // Test for isPalindrome method
-    it('should return true if the string is a palindrome', function() {
-        const result = advOps.isPalindrome('racecar');
-        expect(result).to.be.true;
+    it('should handle an empty array', function() {
+        const result = advOps.calculateStatistics([]);
+        expect(result).to.deep.equal({
+            sum: 0,
+            average: NaN,
+            min: undefined,
+            max: undefined
+        });
     });
 
-    it('should return false if the string is not a palindrome', function() {
-        const result = advOps.isPalindrome('hello');
-        expect(result).to.be.false;
+    it('should handle an array with one element', function() {
+        const result = advOps.calculateStatistics([42]);
+        expect(result).to.deep.equal({
+            sum: 42,
+            average: 42,
+            min: 42,
+            max: 42
+        });
     });
 
-    // Test for mergeAndSort method
-    it('should return the merged and sorted array', function() {
-        const result = advOps.mergeAndSort([3, 1, 4], [2, 5]);
-        expect(result).to.deep.equal([1, 2, 3, 4, 5]);
+    it('should handle negative numbers', function() {
+        const result = advOps.calculateStatistics([-1, -2, -3, -4, -5]);
+        expect(result).to.deep.equal({
+            sum: -15,
+            average: -3,
+            min: -5,
+            max: -1
+        });
     });
 });

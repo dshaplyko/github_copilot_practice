@@ -37,6 +37,43 @@ class AdvancedOperations {
     mergeAndSort(arr1, arr2) {
         // Implementation needed
     }
+
+    /**
+     * Calculates statistics for a set of numbers.
+     * @param {number[]} nums - The set of numbers.
+     * @returns {object} - The statistics including sum, average, min, and max.
+     */
+    calculateStatistics(nums) {
+        // Implementation with bad practices
+
+        let sum = 0;
+        for (let i = 0; i < nums.length; i++) {
+            sum += nums[i];
+        }
+
+        let avg = sum / nums.length;
+
+        let min = nums[0];
+        for (let i = 0; i < nums.length; i++) {
+            if (nums[i] < min) {
+                min = nums[i];
+            }
+        }
+
+        let max = nums[0];
+        for (let i = 0; i < nums.length; i++) {
+            if (nums[i] > max) {
+                max = nums[i];
+            }
+        }
+
+        return {
+            sum: sum,
+            average: avg,
+            min: min,
+            max: max
+        };
+    }
 }
 
 module.exports = AdvancedOperations;
