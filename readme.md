@@ -4,6 +4,15 @@
 
 The goal of this task is to familiarize you with the features of GitHub Copilot by setting up a Node.js project, implementing a set of methods in a JavaScript class skeleton, and validating them through unit tests using Mocha and Chai.
 
+## Additional Notes:
+- Use GitHub Copilot for assistance at each step.
+- Review and understand the generated code.
+- Run your tests frequently to validate each implementation step.
+- Ensure that all tests pass before completion.
+
+### Note for Participants
+This task is helpful for participants with any programming language background since you are not expected to write any code but rather utilize GitHub Copilot to go through its features. This exercise is designed to help you explore and get comfortable with what GitHub Copilot can do, regardless of your prior coding experience.
+
 ## Instructions
 
 ### Step 1: Fork the Repository
@@ -85,12 +94,3 @@ The goal of this task is to familiarize you with the features of GitHub Copilot 
 
 ### Step 12: Create a Merge Request
 1. Create a merge request on the platform using the summary generated in the previous step.
-
-## Additional Notes:
-- Use GitHub Copilot for assistance at each step.
-- Review and understand the generated code.
-- Run your tests frequently to validate each implementation step.
-- Ensure that all tests pass before completion.
-
-### Note for Participants
-This task is helpful for participants with any programming language background since you are not expected to write any code but rather utilize GitHub Copilot to go through its features. This exercise is designed to help you explore and get comfortable with what GitHub Copilot can do, regardless of your prior coding experience.
