@@ -16,7 +16,7 @@ This task is helpful for participants with any programming language background s
 ## Instructions
 
 ### Step 1: Fork the Repository
-1. Fork the pre-prepared repository containing only the `readme.md`, `AdvancedOperations.mjs` and `test/test.mjs` files:
+1. Fork the pre-prepared repository containing only the `readme.md`, `src/AdvancedOperations.mjs` and `test/test.mjs` files:
     - Repository URL: [https://github.com/dshaplyko/github_copilot_practice.git](https://github.com/dshaplyko/github_copilot_practice.git)
 
 2. Clone your forked repository:
@@ -39,7 +39,7 @@ This task is helpful for participants with any programming language background s
     - Use GitHub Copilot to create a `.gitignore` file with the necessary Node.js ignoring options.
 
 ### Step 5: Implement Methods in the AdvancedOperations Class
-1. Open `AdvancedOperations.mjs` and implement the methods using GitHub Copilot assistance (both CodeWhisperer and Copilot assistant features).
+1. Open `src/AdvancedOperations.mjs` and implement the methods using GitHub Copilot assistance (both CodeWhisperer and Copilot assistant features).
 
 ### Step 6: Add Documentation and Comments
 1. **Add JSDoc comments**:
@@ -66,7 +66,7 @@ This task is helpful for participants with any programming language background s
 
 ### Step 9: Refactor a Method
 1. **Review a new method with bad practices**:
-    - Review the `calculateStatistics` method in `AdvancedOperations.mjs` that calculates statistics for a set of numbers but utilizes bad practices and violates DRY, KISS, SOLID, and other principles.
+    - Review the `calculateStatistics` method in `src/AdvancedOperations.mjs` that calculates statistics for a set of numbers but utilizes bad practices and violates DRY, KISS, SOLID, and other principles.
 
 2. **Refactor the method**:
     - Use GitHub Copilot's refactor feature to refactor the `calculateStatistics` method to follow DRY, KISS, SOLID, and other principles.
