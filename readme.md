@@ -1,8 +1,8 @@
-# Task: Set Up Node.js Project and Implement & Test Methods using GitHub Copilot
+# Task: Set Up Java Project and Implement & Test Methods using GitHub Copilot
 
 ## Objective
 
-The goal of this task is to familiarize you with the features of GitHub Copilot by setting up a Node.js project, implementing a set of methods in a JavaScript class skeleton, and validating them through unit tests using Mocha and Chai.
+The goal of this task is to familiarize you with the features of GitHub Copilot by setting up a Java project, implementing a set of methods in a Java class skeleton, and validating them through unit tests using JUnit.
 
 ## Additional Notes:
 - Use GitHub Copilot for assistance at each step.
@@ -16,7 +16,7 @@ This task is helpful for participants with any programming language background s
 ## Instructions
 
 ### Step 1: Fork the Repository
-1. Fork the pre-prepared repository containing only the `readme.md`, `src/AdvancedOperations.mjs` and `test/test.mjs` files:
+1. Fork the pre-prepared repository containing only the `readme.md`, `src/AdvancedOperations.java` and `test/test.java` files:
     - Repository URL: [https://github.com/dshaplyko/github_copilot_practice.git](https://github.com/dshaplyko/github_copilot_practice.git)
 
 2. Clone your forked repository:
@@ -26,24 +26,24 @@ This task is helpful for participants with any programming language background s
     cd github_copilot_practice
     ```
 
-### Step 2: Initialize the Node.js Project
-1. **Initialize a Node.js project**:
-    - Ask GitHub Copilot how to initialize a new Node.js project.
+### Step 2: Initialize the Java Project
+1. **Initialize a Java project**:
+    - Ask GitHub Copilot how to initialize a new Java project.
 
 ### Step 3: Install Necessary Packages
-1. **Install Mocha and Chai for testing**:
+1. **Install JUnit for testing**:
     - Use GitHub Copilot to understand what packages must be installed and install them.
 
 ### Step 4: Create .gitignore File
 1. **Create a `.gitignore` file**:
-    - Use GitHub Copilot to create a `.gitignore` file with the necessary Node.js ignoring options.
+    - Use GitHub Copilot to create a `.gitignore` file with the necessary Java ignoring options.
 
 ### Step 5: Implement Methods in the AdvancedOperations Class
-1. Open `src/AdvancedOperations.mjs` and implement the methods using GitHub Copilot assistance (both CodeWhisperer and Copilot assistant features).
+1. Open `src/AdvancedOperations.java` and implement the methods using GitHub Copilot assistance (both CodeWhisperer and Copilot assistant features).
 
 ### Step 6: Add Documentation and Comments
-1. **Add JSDoc comments**:
-    - Use GitHub Copilot to add JSDoc comments for the following methods:
+1. **Add Javadoc comments**:
+    - Use GitHub Copilot to add Javadoc comments for the following methods:
         - `findMax`
         - `reverseString`
         - `formatDate`
@@ -55,7 +55,7 @@ This task is helpful for participants with any programming language background s
         - `isPalindrome`
 
 ### Step 7: Implement Unit Tests
-1. Open `test/test.mjs` and ensure that the unit tests for the following methods are implemented using GitHub Copilot:
+1. Open `test/test.java` and ensure that the unit tests for the following methods are implemented using GitHub Copilot:
     - `fibonacci`
     - `isPalindrome`
     - `mergeAndSort`
@@ -66,7 +66,7 @@ This task is helpful for participants with any programming language background s
 
 ### Step 9: Refactor a Method
 1. **Review a new method with bad practices**:
-    - Review the `calculateStatistics` method in `src/AdvancedOperations.mjs` that calculates statistics for a set of numbers but utilizes bad practices and violates DRY, KISS, SOLID, and other principles.
+    - Review the `calculateStatistics` method in `src/AdvancedOperations.java` that calculates statistics for a set of numbers but utilizes bad practices and violates DRY, KISS, SOLID, and other principles.
 
 2. **Refactor the method**:
     - Use GitHub Copilot's refactor feature to refactor the `calculateStatistics` method to follow DRY, KISS, SOLID, and other principles.
